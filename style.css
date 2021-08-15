@@ -98,7 +98,7 @@ p#Projects {
   text-align: left;
   font-size: 32px;
   padding: 40px 140px 0px 140px;
-  color: rgba(0, 0, 0, 0.822);
+  color: red;
   font-family: "Roboto", sans-serif;
   line-height: 140%;
 }
