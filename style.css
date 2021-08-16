@@ -207,3 +207,7 @@ iframe {
   margin: 0px 40px 10px 40px;
   padding: 25px;
 }
+
+.focus-on {list-style:none;  padding: 40px 300px 40px 300px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;}
