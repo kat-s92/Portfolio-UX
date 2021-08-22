@@ -1,7 +1,9 @@
 .header {
-  padding: 20px;
-  margin-left: 900px;
+  float: right; 
 }
+
+
+
 .header a {
   color: #bd61c0;
   text-decoration: none;
@@ -11,6 +13,8 @@
   list-style-type: none;
   font-size: 24px;
   font-family: "Roboto", sans-serif;
+  padding-right:45px;
+  padding-bottom: 45px;
 }
 
 .header li {
@@ -42,8 +46,8 @@ li:hover a {
   text-decoration: none;
 }
 
-.welcome img {
-  margin: 50px 5px 30px 100px;
+.welcome img {padding-top: 35px;
+  padding-left:100px;
 }
 
 .connect-linkedin 
