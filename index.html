@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Katya Sitko</title>
 
 
@@ -26,6 +25,7 @@
 
 
 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
 </head>
@@ -34,7 +34,7 @@
 
     <div class="container-md">
         <div class="header">
-            <ul>
+            <ul style="font-size:1.75vw">
 
                 <li>
 
@@ -44,9 +44,17 @@
                 </li>
                 <li>
 
-                    <a href="#Projects">
-                        Projects
-                    </a>
+                    <div class="dropdown">
+
+                        <button onclick="myFunction()" class="dropbtn">Projects</button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="#project-flyux">FlyUX</a>
+                            <a href="#project-weatherapp">Weather App</a>
+
+                        </div>
+                    </div>
+
+
                 </li>
                 <li>
 
@@ -57,15 +65,20 @@
             </ul>
 
         </div>
+        <br />
+        <br />
+        <br />
+
+
 
         <div class="welcome">
             <div class=row>
                 <div class="col-8">
-                    <p>Hi, I'm Katya! 👋🏻 <br /><br />
+                    <p style="font-size:2.5vw">Hi, I'm Katya! 👋🏻 <br /><br />
                         An aspiring UX designer based in Berlin.<br /><br />
                         I like to solve problems through design thinking.</p>
 
-                    <button>
+                    <button class="connect-linkedin" style="font-size:1.5vw">
                         <a href="https://www.linkedin.com/in/katya-sitko-5b22a095/" target="_blank">
                             Let's connect
                         </a>
@@ -74,7 +87,7 @@
                 </div>
                 <div class="col-4">
 
-                    <img src="images/Pic.png" alt="Headshot of female" />
+                    <img src="images/Pic.png" alt="Headshot of female" style="max-width:100%;height:auto;" />
 
                 </div>
             </div>
@@ -92,33 +105,34 @@
     <br />
     <br />
 
-    <p id="About-Me"><br>
-        <strong class="heading-aboutme">About Me 👩🏻‍💻</strong><br /><br />
+    <p id="About-Me" style="font-size:2vw"><br>
+        <strong class="heading-aboutme" style="font-size:5vw">About Me 👩🏻‍💻</strong><br /><br />
         I am lorem ipsum lorem ipsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem
         IpsumLorem IpsumLorem IpsumLorem
         IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem
         IpsumLorem
         IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem IpsumLorem Ipsum
-        <br /><br /><br /><strong>My Certifications</strong><br /><br />
+        <br /><br /><br /><strong style="font-size:3vw">My Certifications</strong><br /><br />
 
 
-        <strong class="sml-headings">Diploma in UX Design with <a href="https://www.uxdesigninstitute.com/"
-                target="_blank">UX Design Institute
-            </a></strong><br /><span class="sm-p">As part of my diploma, I worked on designing a flight booking website.
+        <strong class="sml-headings" style="font-size:2.2vw">Diploma in UX Design with <a
+                href="https://www.uxdesigninstitute.com/" target="_blank">UX Design Institute
+            </a></strong><br /><span class="sm-p" style="font-size:2vw">As part of my diploma, I worked on designing a
+            flight booking website.
             The diploma was a great way to dive into solving a real-life problem while being supported by a excellent
             academic team. It was a very hands-on experience with a steep learning curve and a very satisfying outcome!
         </span>
         <br />
 
-        <br /><br /><strong class="sml-headings">Coding Bootcamp with <a href="https://www.shecodes.io/"
-                target="_blank">SheCodes
+        <br /><br /><strong class="sml-headings" style="font-size:2.2vw">Coding Bootcamp with <a
+                href="https://www.shecodes.io/" target="_blank">SheCodes
             </a>
         </strong>
-        <br /><span class="sm-p">
+        <br /><span class="sm-p" style="font-size:2vw">
             With the help of SheCodes I managed to stay motivated throughout Corona lock-down and completed a coding
             bootcamp. As part of that I made two of my very own weather web-apps using several different languages
             (html, css, JS, React) and got a good insight into front-end development. They really work, you can give
-            them a try on the <a href="#Further_down">
+            them a try on the <a href="#project-weatherapp">
                 Projects
             </a> page! 😊<br />
         </span>
@@ -133,14 +147,15 @@
 
     <p id="Projects">
 
-        <span class="heading-myprojects">My Projects 🤓 </span><br /><br /><br /><br />
+        <span class="heading-myprojects" style="font-size:5vw">My Projects 🤓 </span><br /><br /><br /><br />
+    <p id="project-flyux">
     <div class="project1header">
 
-        <h1>FlyUX Case Study</h1>
-        <h3>
+        <h1 style="font-size:4vw">FlyUX Case Study</h1>
+        <h3 style="font-size:2vw">
             Project Summary
         </h3>
-        <p>
+        <p style="font-size:1.75vw">
             Searching and booking flights can be overwhelming! <br />Navigating clunky apps and websites is confusing
             and frustrating.
             The main objective of this project was to design an intuitive product that focused on the needs of it's
@@ -148,36 +163,38 @@
         </p>
 
 
-        <p><strong>My Role</strong> -
+        <p style="font-size:1.75vw"><strong>My Role</strong> -
             UX/UI Researcher and Designer
 
         </p>
 
 
 
-        <p><strong>Tools Used</strong> <span class="iconify" data-inline="false" data-icon="grommet-icons:figma">
+        <p style="font-size:1.75vw"><strong>Tools Used</strong> <span class="iconify" data-inline="false"
+                data-icon="grommet-icons:figma">
             </span> <span class="iconify" data-inline="false" data-icon="simple-icons:surveymonkey"></span> <span
                 class="iconify" data-inline="false" data-icon="simple-icons:miro"></span>
         </p>
-        <p><strong>Duration</strong> - 6 months</p>
+        <p style="font-size:1.75vw"><strong>Duration</strong> - 6 months</p>
     </div>
 
     <div class="project1body">
-        <h1>Process</h1>
-        <img src="images/Process-diagram.png" alt="Diagram" />
-        <h1>1. Research</h1>
-        <p>First thing is first - in order to solve a problem, I needed to <strong>identify</strong> it.
+        <h1 style="font-size:3vw">Process</h1>
+        <img src="images/Process-diagram.png" alt="Diagram" style="max-width:100%;height:auto;" />
+        <h1 style="font-size:3vw">1. Research</h1>
+        <p style="font-size:1.75vw">First thing is first - in order to solve a problem, I needed to
+            <strong>identify</strong> it.
             The first step of this project was to conduct extensive research into the flight booking space and it's
             users.
             <br /><br /><strong> The main questions I wanted answered were as follows:</strong> <br /><br /> - What
             existing solutions are out there for users?
             <br />- What are users' goals while using flight booking sites?<br />- What do users like and where do their
             frustrations lie with the sites they use?
-            <br /><br />Methods I used to find the answers - <a href="#Competitive Benchmarking">Competitive
+            <br /><br />Methods I used to find the answers - <a href=" #Competitive Benchmarking">Competitive
                 Benchmarking</a>, <a href="#Surveys">Surveys</a>, <a href="#Usability Testing">Usability Testing</a>
         </p>
 
-        <p id="Competitive Benchmarking">
+        <p id="Competitive Benchmarking" style="font-size:1.75vw">
             <span class="sub-heading">1.1 Competitive Benchmarking</span><br /><br />Comparing the design
             solutions
             of
@@ -187,7 +204,8 @@
             for my own design later.<br />
             <br />I compared the following three airlines and one aggregator, focusing on three main features
             <strong>Homepage, Search, Select. </strong>
-            <br /><br /><br /><img src="images/airlines-logos.png" alt="Airline Logos" />
+            <br /><br /><br /><img src="images/airlines-logos.png" alt="Airline Logos"
+                style="max-width:100%;height:auto;" />
             <br /><br />
 
 
@@ -210,10 +228,10 @@
         <div class="home-page-img">
             <div class="row">
                 <div class="col-6">
-                    <img src="images/HP-VA.png" alt="Airline Logo" />
+                    <img src="images/HP-VA.png" alt="Airline Logo" style="max-width:100%;height:auto;" />
                 </div>
                 <div class="col-6">
-                    <img src="images/HP-RA.png" alt="Airline Logo" />
+                    <img src="images/HP-RA.png" alt="Airline Logo" style="max-width:100%;height:auto;" />
                 </div>
             </div>
             <br />
@@ -221,10 +239,10 @@
             <br />
             <div class="row">
                 <div class="col-6">
-                    <img src="images/HP-kiwi.png" alt="Airline Logo" />
+                    <img src="images/HP-kiwi.png" alt="Airline Logo" style="max-width:100%;height:auto;" />
                 </div>
                 <div class="col-6">
-                    <img src="images/HP-S7.png" alt="Airline Logo" />
+                    <img src="images/HP-S7.png" alt="Airline Logo" style="max-width:100%;height:auto;" />
                 </div>
             </div>
         </div>
@@ -273,10 +291,10 @@
         <div class="survey-img">
             <div class="row">
                 <div class="col-6">
-                    <img src="images/survey1.png" alt="Survey Diagram" />
+                    <img src="images/survey1.png" alt="Survey Diagram" style="max-width:100%;height:auto;" />
                 </div>
                 <div class="col-6">
-                    <img src="images/Survey2.png" alt="Bar Chart" />
+                    <img src="images/Survey2.png" alt="Bar Chart" style="max-width:100%;height:auto;" />
                 </div>
             </div>
         </div>
@@ -393,17 +411,17 @@
         <div class="affinity-map-ex">
             <div class="row">
                 <div class="col-3">
-                    <img src="images/20210218_160542.jpg">
+                    <img src="images/20210218_160542.jpg" style="max-width:100%;height:auto;">
                 </div>
                 <div class="col-3">
-                    <img src="images/20210218_200221.jpg">
+                    <img src="images/20210218_200221.jpg" style="max-width:100%;height:auto;">
                 </div>
                 <div class="col-3">
-                    <img src="images/20210219_150723.jpg">
+                    <img src="images/20210219_150723.jpg" style="max-width:100%;height:auto;">
                 </div>
 
                 <div class="col-3">
-                    <img src="images/20210219_161327.jpg">
+                    <img src="images/20210219_161327.jpg" style="max-width:100%;height:auto;">
                 </div>
 
             </div>
@@ -416,7 +434,7 @@
             it and gave good insight into what users enjoyed about their experience.<br /> The top part of the CJM
             includes a
             mood map to visualize user's feelings towards the process at each step.
-        <div class="cjm-pic"> <img src="images/CJM-pic.png"></div>
+        <div class="cjm-pic"> <img src="images/CJM-pic.png" style="width:100%;"></div>
         </p>
         <p>
             <strong>Summarised Findings - CJM
@@ -467,7 +485,7 @@
             Keeping in mind the pain-points and mental models that I took notes on, I put together a high level
             user flow diagram which represents how the user would interact with the system.<br />
 
-        <div class="user-flow"><img src="images/user-flow.png"></div>
+        <div class="user-flow"><img src="images/user-flow.png" style="max-width:100%;height:auto;"></div>
         <br /><br /><br /><br />
         <p id="interaction-design"><span class="sub-heading">3.2 Interaction Design<br />
                 <a href=pdf/Interaction-design-sketches.pdf target="_blank">🔗
@@ -484,7 +502,7 @@
         <div class="interaction-design1">
             <div class="row">
                 <div class="col-6">
-                    <img src="images/DD6.png">
+                    <img src="images/DD6.png" style="max-width:100%;height:auto;">
                 </div>
 
                 <div class="col-6"><strong>Navigation:</strong> Primary navigation on top right, visible at all
@@ -516,23 +534,62 @@
                     all past dates after selecting departure date<br />
                 </div>
                 <div class="col-6">
-                    <img src="images/DD&.png">
+                    <img src="images/DD&.png" style="max-width:100%;height:auto;">
                 </div>
             </div>
+        </div>
+        <br /><br /><br /><br /><br />
+        <h1>4. Prototype</h1>
+        <p><iframe width="920" height="550" src="https://www.youtube.com/embed/IBDQSq8RKCI" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe></p>
+        </p>
+
+        <p id="project-weatherapp">
+        <div class="project2header">
+
+            <h1>Weather App</h1>
+            <h3>
+                Project Summary
+            </h3>
+
+            <p>
+                Weather AppWeather AppWeather AppWeather AppWeather AppWeather AppWeather AppWeather AppWeather
+                AppWeather AppWeather AppWeather AppWeather AppWeather AppWeather AppWeather AppWeather AppWeather
+                AppWeather AppWeather AppWeather App
+            </p>
+
+
+            <p><strong>My Role</strong> -
+                App Developer, Designer
+
+            </p>
+
+
+
+            <p><strong>Tools Used</strong> <span class="iconify" data-icon="akar-icons:html-fill"
+                    style="color: darkblue;" data-height="30"></span><span class="iconify"
+                    data-icon="akar-icons:css-fill" style="color: darkblue;" data-height="30"></span>
+                <span class="iconify" data-icon="tabler:brand-javascript" style="color: darkblue;" data-height="30">
+                </span>
+                <span class="iconify" data-icon="logos:bootstrap" style="color: darkblue;" data-height="30"></span><span
+                    class="iconify" data-icon="logos:react" style="color: darkblue;" data-height="30"></span>
+
+            </p>
+            <p><strong>Duration</strong> - 6 months</p>
         </div>
 
 
 
-
-
-
-
         </p>
+
         </p>
     </div>
 
     </div>
-
+    </p>
+    <script src="app.js"></script>"
 </body>
 
 </html>
