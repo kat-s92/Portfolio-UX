@@ -37,7 +37,7 @@ li:hover a {
   padding: 40px 0px 0px 140px;
   color: rgba(0, 0, 0, 0.822);
   font-family: "Roboto", sans-serif;
-  line-height: normal;
+  
 }
 
 .welcome a {
@@ -403,3 +403,46 @@ ul {
 
 .footer {text-align:center;
 padding-top: 5px;}
+
+#myBtn {
+  display: none; 
+  position: fixed; 
+  bottom: 100px;
+  right: 60px; 
+  z-index: 99; 
+  border:darkblue;
+  border-style: solid;
+  border-width: 1px;
+  outline: none; 
+  background-color: white;
+  color: darkblue; 
+  cursor: pointer; 
+  padding: 15px; 
+  border-radius: 100px;
+  font-size: 20px;
+}
+
+
+
+#myBtn:hover {
+  background-color:darkblue; 
+  color:white;}
+
+  .contact{  padding: 80px 40px 40px 140px;
+  font-family: "Roboto", sans-serif;
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+  
+.contact-hd {
+  font-size: 60px;
+  font-weight: lighter;
+  padding: 80px 40px 80px 140px;
+
+}
+
+.contact a, .email {font-size: 24px;
+  margin-left: 25px;
+position: absolute;
+font-weight: 800;
+color: blue;}
+
