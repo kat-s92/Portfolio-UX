@@ -392,6 +392,7 @@ ul {
   font-family: "Montserrat", sans-serif;
   font-weight: lighter;
   border-radius: 30px;
+  padding-top:10px;
 }
 .time-slot:hover {
   cursor: pointer;
