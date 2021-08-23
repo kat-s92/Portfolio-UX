@@ -14,7 +14,6 @@
   font-size: 24px;
   font-family: "Roboto", sans-serif;
   padding-right:45px;
-  padding-bottom: 45px;
 }
 
 .header li {
@@ -302,3 +301,104 @@ padding-top: 20px;}
   font-size: 24px;
 }
 
+
+
+
+
+.weather-app {
+  background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+  height: 500px;
+  border-radius: 10px;
+  margin-left:auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+
+.current-date h5 {
+  padding: 10px;
+  font-size: 12px;
+  color: white;
+  font-weight: thinner;
+  font-family: "Noto Sans", sans-serif;
+}
+
+#current-location-button {
+  display: block;
+  background: darkblue;
+  color: white;
+  font-size: 20px;
+  padding: 12px 20px 12px 20px;
+  border: none;
+border-radius: 30px;
+  transition: all 200ms ease-in-out;
+}
+
+#current-location-button:hover {
+  cursor: pointer;
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+
+form {
+  font-size: 10px;
+  padding: 10px;
+  font-family: "Noto Sans", sans-serif;
+  margin-left: 60px;
+}
+
+.weather-summary {
+  text-align: left;
+  font-size: 30px;
+  padding: 17px 72px 30px 83px;
+}
+
+.current-city {
+  font-size: 50px;
+
+  font-family: "Noto Sans", sans-serif;
+  color: darkblue;
+}
+
+.current-temp {
+  font-size: 60px;
+  font-family: "Noto Sans", sans-serif;
+  color: darkblue;
+  padding: 10px;
+}
+.current-temp-icon {
+  padding: 0px 0px 20px 5px;
+}
+
+.units {
+  font-size: 12px;
+  position: relative;
+  top: -34px;
+  color: white;
+}
+
+ul {
+  font-size: 15px;
+  list-style: none;
+  padding: 20px 0px 0px 5px;
+  color: white;
+}
+
+.forecast {
+  padding: 5px 30px 25px 30px;
+}
+.time-slot {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  border-radius: 30px;
+}
+.time-slot:hover {
+  cursor: pointer;
+  border-radius: 30px;
+  transition: all 150ms ease-in-out;
+  background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
+}
+
+.footer {text-align:center;
+padding-top: 5px;}
