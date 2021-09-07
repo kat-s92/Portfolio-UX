@@ -142,8 +142,14 @@ p#Projects {
   margin-right: auto;
   width: 75%;
 }
+
+.error-msg{   display: block;
+  margin-left: 200px;
+  margin-right: auto;width: 80%;
+}
+
 .project1body p {
-  padding: 40px 300px 40px 300px;
+  padding: 40px 250px 40px 300px;
   font-family: "Roboto", sans-serif;
   font-size: 24px;
 }

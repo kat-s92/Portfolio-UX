@@ -144,13 +144,13 @@ function changeToCelsius(event) {
 let celsiusLink = document.querySelector("#celsius-link");
 celsiusLink.addEventListener("click", changeToCelsius);
 
-function changeToFarenheit(event) {
+function changeToFahrenheit(event) {
     event.preventDefault();
     let temperature = document.querySelector("#show-temperature");
     temperature.innerHTML = 67;
 
     let farenheitLink = document.querySelector("#farenheit-link");
-    farenheitLink.addEventListener("click", changeToFarenheit);
+    farenheitLink.addEventListener("click", changeToFahrenheit);
 }
 
 function searchCurrentLocation(position) {
