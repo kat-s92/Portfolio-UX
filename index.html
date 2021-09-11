@@ -41,8 +41,9 @@
 </head>
 
 <body>
-
     <div class="container-md">
+
+
         <div class="header">
             <ul style="font-size:1.75vw">
 
@@ -59,11 +60,10 @@
                         <button onclick="myFunction()" class="dropbtn">Projects</button>
                         <div id="myDropdown" class="dropdown-content">
                             <a href="#project-flyux">FlyUX</a>
-                            <a href="#project-weatherapp">Weather App</a>
+                            <a href="weather-app.html" target="_blank">Weather App</a>
 
                         </div>
                     </div>
-
 
                 </li>
                 <li>
@@ -80,7 +80,6 @@
         <br /><br />
         <br />
         <br /><br /><br />
-
 
 
         <div class="welcome">
@@ -162,6 +161,8 @@
                 Projects
             </a> page! ☔️<br />
         </span>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">To top</button>
+
     </p>
     <br />
     <br />
@@ -169,9 +170,11 @@
     <br />
     <br />
 
-
+    <div>
+    </div>
 
     <p id="Projects">
+
 
         <span class="heading-myprojects" style="font-size:5vw">My Projects 🤓 </span><br /><br /><br /><br />
     <p id="project-flyux">
@@ -635,107 +638,16 @@
 
 
 
-        <p id="project-weatherapp">
-        <div class="project2header">
 
-            <h1 style="font-size:4.00vw">Weather App</h1>
-            <h3 style="font-size:2.5vw">
-                Project Summary
-            </h3>
-
-            <p style="font-size:1.75vw">
-                I developed two weather apps. One using JavaScript (below) and the other <a
-                    href="https://whatever-the-weather.netlify.app/" target=_blank>React Native</a>. I
-                used an API to connect my apps to a weather database and you can check the weather according to your
-                location, as well as searching through the form!
-            </p>
-
-
-            <p style="font-size:1.75vw"><strong>My Role</strong> -
-                App Developer, Designer
-
-            </p>
-
-
-
-            <p><strong style="font-size:1.75vw">Tools Used</strong> <span class="iconify"
-                    data-icon="akar-icons:html-fill" style="color: darkblue;" data-height="30"></span><span
-                    class="iconify" data-icon="akar-icons:css-fill" style="color: darkblue;" data-height="30"></span>
-                <span class="iconify" data-icon="tabler:brand-javascript" style="color: darkblue;" data-height="30">
-                </span>
-                <span class="iconify" data-icon="logos:bootstrap" style="color: darkblue;" data-height="30"></span><span
-                    class="iconify" data-icon="logos:react" style="color: darkblue; padding-left: 5px;"
-                    data-height="30"></span>
-                <span class="iconify" data-icon="logos:netlify" style="color: darkblue;" data-height="30"></span>
-                <span class="iconify" data-icon="octicon:mark-github-16" style="color: darkblue;"
-                    data-height="30"></span>
-
-            </p>
-            <p style="font-size:1.75vw"><strong>Duration</strong> - 6 months</p>
-        </div>
 
     </div>
 
-    </div>
+
 
     <br /><br /><br /><br />
-    <div class="container">
-        <div class="weather-app">
-            <div class="current-date">
-                <h5 id="today-date"></h5>
-            </div>
 
-            <form id="search-city">
-                <div class="row">
-                    <div class="col-2">
-                        <button id="current-location-button">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </button>
-                    </div>
-                    <div class="col-6">
-                        <input type="text" class="form-control" placeholder="Enter city" id="city-input"
-                            autocomplete="off" />
-                    </div>
-                    <div class="col-3">
-                        <input type="submit" class="form-control" value="Search" />
-                    </div>
-                </div>
-            </form>
 
-            <div class="weather-summary">
-                <div class="row">
-                    <div class="col-9">
-                        <span class="current-city" id="show-city"></span>
-                        <span class="current-temp" id="show-temperature"></span>
-                        <span class="units">
-                            <a href="#" id="celsius-link">°C</a> |
-                            <a href="#" id="farenheit-link">°F</a>
-                        </span>
-                        <span class="current-temp-icon">
-                            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="clear sky" id="icon" />
-                        </span>
-                    </div>
-                    <div class="col-3">
-                        <ul>
-                            <li>Description: <span id="description"> </span></li>
 
-                            <li>Humidity: <span id="humidity"> </span> %</li>
-
-                            <li>Wind: <span id="wind"></span> km/h</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row forecast" id="forecast"></div>
-        </div>
-        <p class="footer">
-            <a href="https://github.com/kat-s92/shecodes-my-app.git" target="_blank">✌🏼 Open-source</a>
-            coded by Katya <span class="iconify" data-icon="octicon:mark-github-16" style="color: darkblue;"
-                data-height="20"></span>
-        </p>
-    </div>
-
-    <button onclick="topFunction()" id="myBtn" title="Go to top">To top</button>
     <br />
     <br />
     <br />
@@ -774,14 +686,19 @@
         <a href="https://github.com/kat-s92?tab=repositories">Github - kat-s92</a>
         <br />
         </p>
-    </div>
+
     </div>
     <p class="footer">
         <a href="https://github.com/kat-s92/Portfolio-UX" target="_blank">✌🏼 Open-source</a>
         coded by Katya <span class="iconify" data-icon="octicon:mark-github-16" style="color: darkblue;"
             data-height="20"></span>
 
-        <script src="app.js"></script>
+    </p>
+    </div>
+    </div>
+    </div>
+
+    <script src="homepage.js"></script>
 </body>
 
 </html>

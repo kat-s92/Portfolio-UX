@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/370da7d06d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans&family=PT+Sans&display=swap"
+        rel="stylesheet" />
+
+
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <p id="project-weatherapp">
+        <button onclick="topFunction()" id="myBtn" title="Go to top">To top</button>
+
+    <div class="project2header">
+
+        <h1 style="font-size:4.00vw">Weather App</h1>
+        <h3 style="font-size:2.5vw">
+            Project Summary
+        </h3>
+
+        <p style="font-size:1.75vw">
+            I developed two weather apps. One using JavaScript (below) and the other <a
+                href="https://whatever-the-weather.netlify.app/" target=_blank>React Native</a>. I
+            used an API to connect my apps to a weather database and you can check the weather according to your
+            location, as well as searching through the form!
+        </p>
+
+
+        <p style="font-size:1.75vw"><strong>My Role</strong> -
+            App Developer, Designer
+
+        </p>
+
+
+
+        <p><strong style="font-size:1.75vw">Tools Used</strong> <span class="iconify" data-icon="akar-icons:html-fill"
+                style="color: darkblue;" data-height="30"></span><span class="iconify" data-icon="akar-icons:css-fill"
+                style="color: darkblue;" data-height="30"></span>
+            <span class="iconify" data-icon="tabler:brand-javascript" style="color: darkblue;" data-height="30">
+            </span>
+            <span class="iconify" data-icon="logos:bootstrap" style="color: darkblue;" data-height="30"></span><span
+                class="iconify" data-icon="logos:react" style="color: darkblue; padding-left: 5px;"
+                data-height="30"></span>
+            <span class="iconify" data-icon="logos:netlify" style="color: darkblue;" data-height="30"></span>
+            <span class="iconify" data-icon="octicon:mark-github-16" style="color: darkblue;" data-height="30"></span>
+
+        </p>
+        <p style="font-size:1.75vw"><strong>Duration</strong> - 6 months</p>
+    </div>
+
+    </div>
+
+    </div>
+    <br /><br /><br /><br />
+
+    <div class="container">
+        <div class="weather-app">
+            <div class="current-date">
+                <h5 id="today-date"></h5>
+            </div>
+
+            <form id="search-city">
+                <div class="row">
+                    <div class="col-2">
+                        <button id="current-location-button">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </button>
+                    </div>
+                    <div class="col-6">
+                        <input type="text" class="form-control" placeholder="Enter city" id="city-input"
+                            autocomplete="off" />
+                    </div>
+                    <div class="col-3">
+                        <input type="submit" class="form-control" value="Search" />
+                    </div>
+                </div>
+            </form>
+
+            <div class="weather-summary">
+                <div class="row">
+                    <div class="col-9">
+                        <span class="current-city" id="show-city"></span>
+                        <span class="current-temp" id="show-temperature"></span>
+                        <span class="units">
+                            <a href="#" id="celsius-link">°C</a> |
+                            <a href="#" id="farenheit-link">°F</a>
+                        </span>
+                        <span class="current-temp-icon">
+                            <img src="http://openweathermap.org/img/wn/10d@2x.png" alt="clear sky" id="icon" />
+                        </span>
+                    </div>
+                    <div class="col-3">
+                        <ul>
+                            <li>Description: <span id="description"> </span></li>
+
+                            <li>Humidity: <span id="humidity"> </span> %</li>
+
+                            <li>Wind: <span id="wind"></span> km/h</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row forecast" id="forecast"></div>
+
+        </div>
+        <p class="footer">
+            <a href="https://github.com/kat-s92/shecodes-my-app.git" target="_blank">✌🏼 Open-source</a>
+            coded by Katya <span class="iconify" data-icon="octicon:mark-github-16" style="color: darkblue;"
+                data-height="20"></span>
+        </p>
+
+    </div>
+
+    <script src="weather-app.js"></script>
+</body>
+
+</html>
