@@ -99,19 +99,14 @@ img#logo {
 
 
 
-p#Projects {
-  text-align: left;
-  font-size: 32px;
-  padding: 40px 140px 0px 140px;
-  color: black;
-  font-family: "Roboto", sans-serif;
-  line-height: 140%;
-}
 
-.project1header h1 {
-  padding-bottom: 40px;
-  padding-top:80px;
-  text-align: center;
+.project1header h1  {padding: 120px 20px 20px 100px;
+  font-family: Inter;
+  font-size: 61px;
+  font-weight: 300;
+letter-spacing: normal;
+
+  text-align: left;
 }
 
 .project1header {
@@ -122,29 +117,41 @@ p#Projects {
 }
 
 .project1header p{
-  padding: 80px 80px 20px 140px;
+  padding: 20px 20px 20px 140px;
   font-family: "Roboto", sans-serif;
   font-size: 26px;
     font-weight: 200;
-  ;
+  
 }
 
 .project1body h1 {
 
-  padding: 80px 20px 20px 140px;
-  font-family: "Roboto", sans-serif;
-font-weight: 300;
-  text-align: center;
+  padding: 20px 20px 20px 300px;
+  font-family: Inter;
+  font-size: 61px;
+  font-weight: 300;
+
+letter-spacing: normal;
+
+  text-align: left;
 }
 
 .project1body h2 {
-
-  padding: 80px 40px 20px 300px;
+font-size: 42px;
+  padding: 20px 20px 20px 300px;
   font-family: "Roboto", sans-serif;
-  padding-bottom: 40px;
   text-align: left;
   font-weight: 300;
 }
+
+.project1body h3 {
+font-size: 32px;
+  padding: 5px 5px 20px 300px;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  font-weight: 300;
+}
+
 
 .project1body img {
   display: block;
@@ -159,7 +166,7 @@ font-weight: 300;
 }
 
 .project1body p {
-  padding: 40px 250px 40px 300px;
+  padding: 5px 300px 20px 300px;
   font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-weight:200;
