@@ -2,78 +2,100 @@
 
 .header {
   float: right; 
-  font-weight:400 ;
+  padding: 30px 85px 5px 5px;
+
 }
 
 
+.header button{background-color: rgb(255, 218, 115);
+border-style:none;
+border-radius: 65px;
+padding: 15px;
+font-size: 22px;
+font-weight: 300;
+text-decoration: none;}
+
+
+.header button:hover{
+  background-color:rgba(166, 166, 253, 0.74);
+  text-decoration: none;
+}
 
 .header a {
-  color: #bd61c0;
+  color: black;
   text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header a:hover {
+  color: white;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .header ul {
   list-style-type: none;
-  font-size: 18px;
-  font-family: "Roboto", sans-serif;
-  padding-right:45px;
-
+font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
 }
 
 .header li {
   display: inline;
-  padding: 20px 20px 0px 20px;
-  
+  padding:20px;
+  text-decoration: none;
+  font-weight: lighter;
 }
 
-li:hover a {
-  color: #59b49a;
-}
+
 .welcome {
-  background-image: linear-gradient(-225deg, #e3fdf5 0%, #ffe6fa 100%);
   margin: 20px 0px 20px 0px;
   font-weight: 100;
 }
 
-.welcome small{  font-weight: 100;}
+.welcome small{  font-weight:lighter;
+font-size:16px;}
 
 .welcome p {
+  
   text-align: left;
-  font-size: 26px;
-  padding: 40px 0px 0px 140px;
+  font-size: 32px;
+  line-height: 40px;
+  padding: 60px 0px 0px 250px;
   color: rgba(0, 0, 0, 0.822);
-  font-family: "Roboto", sans-serif;
-    font-weight: 100;
+  font-family: 'Prompt', sans-serif;
+    
     
 }
 
 .welcome a {
-  color: #59b49a;
+  color:black;
   text-decoration: none;
 }
 
-.welcome img {padding-top: 35px;
-  padding-left:100px;
+.welcome img {padding-top: 65px;
+  padding-left:0px;
 }
 
 .connect-linkedin 
  {
-  background-color: white;
+  background-color:
+  rgba(209, 209, 253, 0.74);
   border: none;
-  font-size: 24px;
+  font-size: 22px;
   border-radius: 50px;
-  margin: 30px 10px 30px 135px;
-  padding: 24px;
+  margin: 30px 10px 30px 240px;
+  padding: 25px;
   text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .connect-linkedin:hover {
   cursor: pointer;
-background-color:#59b49a;
+background-color:rgb(255, 218, 115);
 }
 
 .connect-linkedin:hover a {
-  color: white;
+  color: black;
 }
 
 p#About-Me {
@@ -103,19 +125,27 @@ img#logo {
 .project1header h1  {padding: 120px 20px 20px 100px;
   font-family: Inter;
   font-size: 61px;
-  font-weight: 300;
+ 
 letter-spacing: normal;
 
   text-align: left;
 }
 
 .project1header {
-  padding: 80px 80px 20px 140px;
+  padding: 180px 80px 20px 80px;
   font-family: "Roboto", sans-serif;
   font-size: 26px;
   ;
 }
 
+.project1header a{
+
+ color: black;
+ text-decoration: none;
+   font-family: 'Prompt', sans-serif;
+  font-size: 46px;
+  
+}
 .project1header p{
   padding: 20px 20px 20px 140px;
   font-family: "Roboto", sans-serif;
@@ -175,19 +205,8 @@ font-size: 32px;
   text-decoration: none;
 }
 
-.heading-myprojects {
-  font-size: 60px;
-  padding: 40px 140px 40px 0px;
 
-}
-.sub-heading {
-  font-weight: 300;
-  font-size: 32px;
-  padding: 40px 300px 40px 0px;
-  font-family: "Roboto", sans-serif;
- 
-  text-align: left;
-}
+
 
 .SS-page-img {
   margin: 10px 50px 0px 50px;
@@ -237,64 +256,8 @@ iframe {
 
 
 
-.dropbtn {
-
- display: inline;
-  margin: 10px 0px 0px 0px;
-  padding: 20px 20px 0px 20px;
-   color: #bd61c0;
-  background-color: white;
-   border: none;
-     text-decoration: none;
-
-}
-
-.dropbtn:hover, .dropbtn:focus {
-    color: #59b49a;
-         outline: none;
-
-   
-    
-
-}
-
-/* The container <div> - needed to position the dropdown content */
-.dropdown {
-  position: relative;
-  display: inline-block;
 
 
-
-}
-
-/* Dropdown Content (Hidden by Default) */
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color:white;
-  min-width: 200px;
-    z-index: 1;
-}
-
-/* Links inside the dropdown */
-.dropdown-content a {
-  color: #59b49a;
-  padding: 10px 0px 5px 20px
-  ;
-  display: block;
-  font-size: 20px;
-}
-
-.dropdown-content a:hover {color:#bd61c0 ;
-  text-decoration: none;
-     
-
-}
-/* Change color of dropdown links on hover */
-
-
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
 
 
 .project2header h1{text-align: left; 
@@ -450,22 +413,18 @@ padding-top: 5px;}
 
 
 
-  .contact{  padding: 80px 40px 40px 140px;
+  .contact{  
+    margin-top:120px;
+    padding: 20px 40px 40px 140px;
   font-family: "Roboto", sans-serif;
-  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+  background-color: rgb(255, 218, 115);
 }
   
-.contact-hd {
-  font-size: 60px;
 
-  padding: 80px 40px 80px 140px;
-
-}
 
 .contact a, .email {font-size: 24px;
   margin-left: 25px;
 position: absolute;
-
 color: blue;}
 
 .collapsible {
@@ -551,9 +510,4 @@ color: blue;}
   right: 0;
   border-radius: 3px 0 0 3px;
 }
-
-
-
-
-
 

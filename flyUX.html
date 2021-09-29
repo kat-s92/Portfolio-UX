@@ -23,7 +23,11 @@
         rel="stylesheet" />
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans&family=PT+Sans&display=swap"
+        rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
 
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
     <script src="https://code.iconify.design/1/1.0.6/iconify.min.js"></script>
@@ -43,852 +47,829 @@
 </head>
 
 <body>
-    <div class="container-md">
 
 
-        <div class="header">
-            <ul style="font-size:1.75vw">
+    <div class="header">
+        <li>
+            <button>
+                <a href="index.html">
+                    About
+                </a></button>
+        </li>
+        </li>
+        <button><a href="projects.html">Projects</a></button>
+        </li>
+        <li>
+            <button>
+                <a href="contact.html">
+                    Contact
+                </a></button>
+    </div>
 
-                <li>
 
-                    <a href="index.html">
-                        About
-                    </a>
-                </li>
-                <li>
 
-                    <div class="dropdown">
 
-                        <button onclick=" myFunction()" class="dropbtn">
-                            Projects</button>
-                        <div id="myDropdown" class="dropdown-content">
-                            <a href="flyUX.html">FlyUX</a>
-                            <a href=" weather-app.html">Weather App</a>
-                            <a href="Doctolib.html">Doctolib Redesign</a>
 
-                        </div>
-                    </div>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">To top</button>
 
-                </li>
-                <li>
 
-                    <a href="contact.html">
-                        Contact
-                    </a>
-                </li>
-            </ul>
+    <div class="project1header">
+
+        <div class="row">
+            <div class="col-6">
+                <h1>FlyUX Case Study</h1>
+            </div>
+            <div class=" col-6 ">
+
+                <img src="images/flyux_thumbnail.png" style="max-width:100%;">
+            </div>
 
         </div>
-        <br />
-        <br />
-        <br /><br />
-        <br />
+
+        <hr>
+
+        <p>
+            <span style="font-weight: 300;">Project Summary</span>
+            <br /><br />
+            Searching and booking flights can be overwhelming! <br />Navigating clunky apps and websites is
+            confusing
+            and frustrating.
+            The main objective of this project was to design an intuitive product that focused on the needs
+            of it's
+            users and made their journey more efficient.
+            <br /><br />
+
+
+            <span style="font-weight: 300;">My Role</span> -
+            UX/UI Researcher and Designer
+
+
+            <br /><br />
+
+            <span style="font-weight: 300;">Tools Used</span> <span class="iconify" data-inline="false"
+                data-icon="grommet-icons:figma">
+            </span> <span class="iconify" data-inline="false" data-icon="simple-icons:surveymonkey"></span>
+            <span class="iconify" data-inline="false" data-icon="simple-icons:miro"></span> (Figma,
+            SurveyMonkey,
+            Miro)
+            <br /><br />
+            <span style="font-weight: 300;">Duration</span> - 6 months
+        </p>
+
+
+
+
+    </div>
+
+    <div class="project1body">
+
+        <h1>📝 My Process</h1>
         <br /><br /><br />
+        <img src="images/process.png" alt="Diagram" style="max-width:100%;height:auto;" />
+
+        <br /><br /><br /><br />
+        <h1>🕵🏻‍♀️ Research</h1>
+        <p style="font-size:1.75vw">The main questions I wanted answered were as follows: <br /><br /> -
+            What
+            existing solutions are out there for users?
+            <br />- What are users' goals while using flight booking sites?<br />- What do users like and where do
+            their
+            frustrations lie with the sites they use?
+            <br /><br />Methods used - <a href=" #Competitive Benchmarking">Competitive
+                Benchmarking</a>, <a href="#Surveys">Surveys</a>, <a href="#Usability Testing">Usability Testing</a>
+        </p>
+
+        <h2>Competitive
+            Benchmarking</h2>
+        <p>Comparing
+            the
+            design
+            solutions
+            of
+            some current industry leaders allowed me to see what already
+            exists out there, to identify a few obvious conventions and also some painpoints all of which I took
+            on board
+            for my own design later.<br />
+            <br />I compared the following three airlines and one aggregator, focusing on three main features
+            <span style="font-weight: 300;">Homepage, Search, Select. </span>
+        </p>
+        <br /><br /><br /><img src="images/airlines-logos.png" alt="Airline Logos" style="width:50%" />
+        <br /><br />
 
 
 
-        <button onclick="topFunction()" id="myBtn" title="Go to top">To top</button>
+        <h3>Search and Select <br /><a href=pdf/competitive-benchmark-analysis.pdf target="_blank"
+                style="font-size:1.75vw">🔗
+                Full Analysis
+                here</a></h3>
 
-
-        <div class="project1header">
-
+        <p>
+            I did a deep dive of the Search ans Select steps of each airline - it's visual design and functionality
+            and
+            marked those features that I
+            found to be positive in green and those to be negative in red. I found a lot of interesting stuff here,
+            I
+            really enjoyed some of the features and began to put together an idea of what I wanted my own
+            site to look and feel like.
+        </p><br />
+        <div class="SS-page-img">
             <div class="row">
                 <div class="col-6">
-                    <h1>FlyUX Case Study</h1>
+                    <img src="images/SS-VietnamAir.png" alt="Airline Logo" style="max-width:100%;height:auto;" />
                 </div>
-                <div class=" col-6 ">
-
-                    <img src="images/flyux_thumbnail.png" style="max-width:100%;">
+                <div class="col-6">
+                    <img src="images/SS-Ryanair.png" alt="Airline Logo" style="max-width:100%;height:auto;" />
                 </div>
-
             </div>
+            <br />
 
-            <hr>
-
-            <p>
-                <span style="font-weight: 300;">Project Summary</span>
-                <br /><br />
-                Searching and booking flights can be overwhelming! <br />Navigating clunky apps and websites is
-                confusing
-                and frustrating.
-                The main objective of this project was to design an intuitive product that focused on the needs
-                of it's
-                users and made their journey more efficient.
-                <br /><br />
-
-
-                <span style="font-weight: 300;">My Role</span> -
-                UX/UI Researcher and Designer
-
-
-                <br /><br />
-
-                <span style="font-weight: 300;">Tools Used</span> <span class="iconify" data-inline="false"
-                    data-icon="grommet-icons:figma">
-                </span> <span class="iconify" data-inline="false" data-icon="simple-icons:surveymonkey"></span>
-                <span class="iconify" data-inline="false" data-icon="simple-icons:miro"></span> (Figma,
-                SurveyMonkey,
-                Miro)
-                <br /><br />
-                <span style="font-weight: 300;">Duration</span> - 6 months
-            </p>
-
-
-
-
+            <br />
+            <div class="row">
+                <div class="col-6">
+                    <img src="images/SS-Kiwi.png" alt="Airline Logo" style="max-width:100%;height:auto;" />
+                </div>
+                <div class="col-6">
+                    <img src="images/SS-S7.png" alt="Airline Logo" style="max-width:100%;height:auto;" />
+                </div>
+            </div>
         </div>
 
-        <div class="project1body">
-
-            <h1>📝 My Process</h1>
-            <br /><br /><br />
-            <img src="images/process.png" alt="Diagram" style="max-width:100%;height:auto;" />
-
-            <br /><br /><br /><br />
-            <h1>🕵🏻‍♀️ Research</h1>
-            <p style="font-size:1.75vw">The main questions I wanted answered were as follows: <br /><br /> -
-                What
-                existing solutions are out there for users?
-                <br />- What are users' goals while using flight booking sites?<br />- What do users like and where do
-                their
-                frustrations lie with the sites they use?
-                <br /><br />Methods used - <a href=" #Competitive Benchmarking">Competitive
-                    Benchmarking</a>, <a href="#Surveys">Surveys</a>, <a href="#Usability Testing">Usability Testing</a>
-            </p>
-
-            <h2>Competitive
-                Benchmarking</h2>
-            <p>Comparing
-                the
-                design
-                solutions
-                of
-                some current industry leaders allowed me to see what already
-                exists out there, to identify a few obvious conventions and also some painpoints all of which I took
-                on board
-                for my own design later.<br />
-                <br />I compared the following three airlines and one aggregator, focusing on three main features
-                <span style="font-weight: 300;">Homepage, Search, Select. </span>
-            </p>
-            <br /><br /><br /><img src="images/airlines-logos.png" alt="Airline Logos" style="width:50%" />
-            <br /><br />
-
-
-
-            <h3>Search and Select <br /><a href=pdf/competitive-benchmark-analysis.pdf target="_blank"
-                    style="font-size:1.75vw">🔗
-                    Full Analysis
-                    here</a></h3>
-
-            <p>
-                I did a deep dive of the Search ans Select steps of each airline - it's visual design and functionality
-                and
-                marked those features that I
-                found to be positive in green and those to be negative in red. I found a lot of interesting stuff here,
-                I
-                really enjoyed some of the features and began to put together an idea of what I wanted my own
-                site to look and feel like.
-            </p><br />
-            <div class="SS-page-img">
-                <div class="row">
-                    <div class="col-6">
-                        <img src="images/SS-VietnamAir.png" alt="Airline Logo" style="max-width:100%;height:auto;" />
-                    </div>
-                    <div class="col-6">
-                        <img src="images/SS-Ryanair.png" alt="Airline Logo" style="max-width:100%;height:auto;" />
-                    </div>
-                </div>
-                <br />
-
-                <br />
-                <div class="row">
-                    <div class="col-6">
-                        <img src="images/SS-Kiwi.png" alt="Airline Logo" style="max-width:100%;height:auto;" />
-                    </div>
-                    <div class="col-6">
-                        <img src="images/SS-S7.png" alt="Airline Logo" style="max-width:100%;height:auto;" />
-                    </div>
-                </div>
-            </div>
-
-            <br /><br />
-
-            <h3>My Conclusions</h3>
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Chronological Order
-            </button>
-            <div class="content">
-                <p>Mostly same chronological order is followed throughout the processes. Sites that allow user to
-                    select all their requirements from the homepage are smoother.</p>
-            </div>
-
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Options
-            </button>
-            <div class="content">
-                <p>Users like it when they are given options - freedom, control,
-                    flexibility
-                    of process
-                    .</p>
-            </div>
-
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Whitespace
-            </button>
-            <div class="content">
-                <p>The pages that utilized more
-                    whitespace are easier to read and
-                    feel
-                    less cluttered.</p>
-            </div>
-
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Colour as cues/indicators
-            </button>
-            <div class="content">
-                <p>Clever use of colour draws the
-                    user's
-                    attention to CTA's and other
-                    important information on
-                    the
-                    page.</p>
-            </div>
-
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Emojis are easy to recognize and relate to
-            </button>
-            <div class="content">
-                <p>Emojis/symbols are cleverly used as indicators -
-                    reassurance.</p>
-            </div>
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Give the desired info at the right time
-            </button>
-            <div class="content">
-                <p>Date pickers that provide prices are very
-                    useful.</p>
-            </div>
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Error messages and recovery
-            </button>
-            <div class="content">
-                <p>Useful error messages error and a recovery process are essential.</p>
-            </div>
-            <br /><br /><br /><br />
-            <h2>Survey</h2>
-            <p>
-                After digging into the different booking processes myself, I turned to the users to
-                learn about their experiences and habits around flight booking. <br /> <br /> I collected 15 survey
-                responses, asked mostly
-                closed-ended
-                questions but also wanted to give the option to write a
-                short
-                phrase to find out some emotions.</p>
-
-            <h3>My Findings<br /><a href="pdf/online-survey-results.pdf" target="_blank" style="font-size:1.75vw">🔗
-                    Full
-                    Survey
-                    here</a>
-            </h3>
-            <p> Carrying out the survey helped to
-                gather
-                very valuable data, both quantitative and qualitative. I started to get an understanding of user
-                behaviours, perceptions and
-                frustrations. This exercise also allowed me build on what I found while benchmarking by relating
-                some of
-                information from the survey to my existing findings.</p>
-
-            <div class="survey-img">
-                <div class="row">
-                    <div class="col-6">
-                        <img src="images/survey1.png" alt="Survey Diagram" style="max-width:100%;height:auto;" />
-                    </div>
-                    <div class="col-6">
-                        <img src="images/Survey2.png" alt="Bar Chart" style="max-width:100%;height:auto;" />
-                    </div>
-                </div>
-            </div>
-            <br /><br /><br />
-
-            <h3>My Conclusions</h3>
-
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Three times a year, desktop preference
-            </button>
-            <div class="content">
-                <p>Most people fly at
-                    least
-                    3
-                    times a year and mostly
-                    prefer to book their flights on a
-                    desktop.</p>
-            </div>
-
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Price - most important
-            </button>
-            <div class="content">
-                <p>Price is the
-                    most important factor
-                    for most people
-                    when finding the right flight.</p>
-            </div>
-
-
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Price comparison sites
-            </button>
-            <div class="content">
-                <p>Price comparison sites are
-                    used
-                    to
-                    check prices and cheapest is booked
-                    through an
-                    aggregator or directly on the airlines site, users usually coming back to the aggregators several
-                    times before purchasing tickets. Most users monitor the flights for about 2 weeks before booking.
-                </p>
-            </div>
-
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Good user experience
-            </button>
-            <div class="content">
-                <p>More than half of users have reported having a good
-                    flight
-                    booking experience and a large portion of
-                    users have no
-                    opinion they do what needs to be done and move on.
-                </p>
-            </div>
-
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Lack of clarity of process frustrates
-            </button>
-            <div class="content">
-                <p>The main frustrations are:
-                    lack
-                    of
-                    clarity of process + lack of details about trip
-                    along the way eg.
-                    total
-                    price/add-ons, too much irrelevant information eg.promotions/upselling, need for easier access to
-                    alternative
-                    routes,
-                    more customization per user - who they travel with, where they travel from / to most frequently.
-                </p>
-            </div>
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Emotions
-            </button>
-            <div class="content">
-                <p> "Easy, Smooth,
-                    Efficient,
-                    Convenient, Practical, Stressful, Tedious, Meh".
-                </p>
-            </div>
-
-
-
-            </p>
-
-            <p id="Usability Testing" style="font-size:1.75vw">
-            <h2> Usability Testing</h2>
-            <p>
-                Conducting usability testing helped me to get a deep insight into user behaviour while they flow
-                through
-                the
-                process of booking a flight in real time. It was an excellent exercise to observe what actions they
-                took, to
-                understand why they took them
-                and how they felt about their user journey. <br /><br /><span class="sub-heading"
-                    style="font-size:2.5vw">My
-                    Findings</span><br /><br />
-                I carried out a usability test on the Aer Lingus flight booking site and watched recorded usability
-                tests of
-                two other participants using the same site to gather more information. <br />This exercise
-                was also a chance
-                for me to compare my own experiences and perceptions (so far) of the flight booking process with
-                those
-                of
-                different
-                users. It put into perspective the power of mental mapping as well as the differences in digital
-                literacy.</p>
-            <div class="container">
-                <iframe class="responsive-iframe" width="560" height="415"
-                    src="https://www.youtube.com/embed/jUSUvgn5wQs" title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe>
-
-                <br /><br />
-            </div>
-            <h3>My Conclusions </h3>
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Bad CTA's and indicators
-            </button>
-            <div class="content">
-                <p>The biggest struggle for users in all
-                    usability
-                    tests
-                    was the lack of clear indicators and subtlety of
-                    CTA's.</p>
-            </div>
-
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> User must not have to look for info
-            </button>
-            <div class="content">
-                <p>Most important information needs to be made
-                    very
-                    obvious, the user must not have to look for it..</p>
-            </div>
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Reduce amount of clicking
-            </button>
-            <div class="content">
-                <p>Users did not like extra clicking eg. to view
-                    what
-                    was
-                    included in their fare.</p>
-            </div>
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Habits, mind maps
-            </button>
-            <div class="content">
-                <p>One user pointed out hat they were used to
-                    adding
-                    items to their shopping cart on Amazon and would like
-                    to see the same function on flight booking sites.</p>
-            </div>
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Fare information
-            </button>
-            <div class="content">
-                <p>Fare information should be transparent and
-                    clear.</p>
-            </div>
-
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Too much information frustrated users
-            </button>
-            <div class="content">
-                <p>Too much information at any one stage
-                    confused
-                    users. Information should be displayed in smaller blocks, so the user can digest it better.</p>
-            </div>
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Offer alternatives
-            </button>
-            <div class="content">
-                <p>Displaying alternative options was positively
-                    met
-                    by
-                    users eg. alternative dates and prices.</p>
-            </div>
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Mistrust
-            </button>
-            <div class="content">
-                <p>There is definitely a feeling of mistrust
-                    towards
-                    airlines. Most users were looking out for hidden charges throughout the process.</p>
-            </div>
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Banner ads, pop-ups
-            </button>
-            <div class="content">
-                <p>Banner ads, pop-ups distract from the process, cause frustration and make the site feel cheaper.</p>
-            </div>
-
-            <br />
-            <br />
-            <br />
-            <br />
-
-            <h1>📊 Analysis</h1>
-            <p class="analysis-intro" style="font-size:1.75vw">After collecting the data it was time to review and
-                make
-                sense of it, to
-                categorize the
-                findings and to make a more structured overview of the user problem. This was done by creating an <a
-                    href="#affinity-diagram">
-                    Affinity
-                    Diagram
-                </a> and <a href="#customer-journey-map">Customer Journey Map</a>.
-            </p>
-            <br />
-            <h2>
-                Affinity
-                Diagram</h2>
-            <p>
-                For this part, I worked together with another designer who was working on the same project.
-                Together, we
-                created a
-                very detailed affinity map by sharing research data
-                with
-                each other and noting our observations on post-its. After combining all of them together, we grouped
-                them
-                according to different patterns that we began to see emerging. Each sub group received a name.
-                </br /></br />We
-                came up with 25 groups in total, some of the main groups were - mental models that hinder good user
-                experience (friction), mental
-                models that aid good user experience, pre-booking behaviours, error recovery, communication between
-                passengers.</br /></br /> You can see more of the affinity map groups <a href="pdf/affinity-map.pdf"
-                    target=blank>here</a>
-                .
-            </p>
-            <div class="affinity-map-ex">
-                <div class="row">
-                    <div class="col-3">
-                        <img src="images/20210218_160542.jpg" style="max-width:100%;height:auto;">
-                    </div>
-                    <div class="col-3">
-                        <img src="images/20210218_200221.jpg" style="max-width:100%;height:auto;">
-                    </div>
-                    <div class="col-3">
-                        <img src="images/20210219_150723.jpg" style="max-width:100%;height:auto;">
-                    </div>
-
-                    <div class="col-3">
-                        <img src="images/20210219_161327.jpg" style="max-width:100%;height:auto;">
-                    </div>
-
-                </div>
-            </div><br /><br /><br /><br />
-            <h2>
-                Customer Journey Map
-                (CJM)</h2>
-            <p>
-                I took the grouped information from the affinity map and arranged it in line with each step of the
-                user
-                journey. At each
-                step I noted the goals, behaviours, pain points and positive reactions/feedback. <br />
-                The map allowed me to get a more cohesive view of where friction occurred along the process, what
-                had
-                caused
-                it and gave good insight into what users enjoyed about their experience.<br /> The top part of the
-                CJM
-                includes a
-                mood map to visualize user's feelings towards the process at each step.
-            <div class="cjm-pic"> <img src="images/CJM-pic.png" style="width:85%;"></div>
-            </p>
-            <br /><br /><br />
-            <h3>My Conclusions</h3>
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Poor CTA's
-            </button>
-            <div class="content">
-                <p>Users often found themselves unsure of how to proceed to the next step, which indicates a lack
-                    of
-                    feedback and indicators poorly designed CTA's.</p>
-            </div>
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Overwhelming
-            </button>
-            <div class="content">
-                <p>Although users like to be given alternative options/actions, too many options and too much/unclear
-                    information is overwhelming and takes away
-                    from
-                    the
-                    user experience.</p>
-            </div>
-
-
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Mental Mapping
-            </button>
-            <div class="content">
-                <p>Everyone was used to different ways (mental models at work) of inputting
-                    information -
-                    typing/selecting and when their preferred
-                    method
-                    was unavailable, they were upset. It is important to incorporate that into designing the
-                    interactions.</p>
-            </div>
-
-            <button type="button" class="collapsible">
-                <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
-                    style="color: darkblue; font-size:1.75vw"></span> Chatbot/Help availability
-            </button>
-            <div class="content">
-                <p>Users found the presence of a Chatbot for quick customer support reassuring.</p>
-            </div>
-
-            <br /><br /><br /><br />
-
-
-
-            <h1>👩🏻‍🎨 Design</h1>
-            <p>
-                Once I analysed my research and made some conclusions, it was time to begin designing my own
-                solution.
-                <br />I
-                wanted
-                to
-                create a communicative product with a focus on feedback from the system to the user in the form of
-                useful
-                error messages and actionable recovery tasks,
-                clear CTA's and indicators. I wanted the software to be friendly and polite, easy to navigate and
+        <br /><br />
+
+        <h3>My Conclusions</h3>
+
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Chronological Order
+        </button>
+        <div class="content">
+            <p>Mostly same chronological order is followed throughout the processes. Sites that allow user to
+                select all their requirements from the homepage are smoother.</p>
+        </div>
+
+
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Options
+        </button>
+        <div class="content">
+            <p>Users like it when they are given options - freedom, control,
+                flexibility
+                of process
+                .</p>
+        </div>
+
+
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Whitespace
+        </button>
+        <div class="content">
+            <p>The pages that utilized more
+                whitespace are easier to read and
                 feel
-                smooth. <br /><br />
-                The steps involved in the design stage were creating a clear <a href=" #user-flow">
-                    User Flow</a> and some <a href="#interaction-design">Low Fidelity Sketching</a>.
-            </p>
-            <br />
-
-            <h2>User
-                Flow
-                Diagram</h2>
-            <p>🔗
-                <a href=pdf/UserFlow.pdf target="_blank">
-
-                    More detailed version here</a>
-            </p>
-
-            <p>
-                Keeping in mind the pain-points and mental models that I took notes on, I put together a high level
-                user flow diagram which represents how the user would interact with the system.<br />
-            </p>
-
-            <div class="user-flow"><img src="images/UserFlow.png" style="max-width:100%;height:auto;"></div>
-            <br /><br /><br />
-            <h2>
-                Low Fidelity Sketching</h2>
+                less cluttered.</p>
+        </div>
 
 
-
-            <button type="button" class="collapsible ">
-                👉🏻 Sketches
-            </button>
-            <div class="content">
-                <p><iframe src="pdf/Interaction-design-sketches.pdf" width="700" height="515" frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                </p>
-            </div>
-
-
-
-
-
-            <p>
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Colour as cues/indicators
+        </button>
+        <div class="content">
+            <p>Clever use of colour draws the
+                user's
+                attention to CTA's and other
+                important information on
+                the
+                page.</p>
+        </div>
 
 
-                The next step was to start combining the user interactions with some visuals. At this stage a lot of
-                ideas
-                were formed and using pen
-                and paper was a great way to experiment
-                and make quick
-                changes.<br />
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Emojis are easy to recognize and relate to
+        </button>
+        <div class="content">
+            <p>Emojis/symbols are cleverly used as indicators -
+                reassurance.</p>
+        </div>
 
-                <br />
-            </p>
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Give the desired info at the right time
+        </button>
+        <div class="content">
+            <p>Date pickers that provide prices are very
+                useful.</p>
+        </div>
 
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Error messages and recovery
+        </button>
+        <div class="content">
+            <p>Useful error messages error and a recovery process are essential.</p>
+        </div>
+        <br /><br /><br /><br />
+        <h2>Survey</h2>
+        <p>
+            After digging into the different booking processes myself, I turned to the users to
+            learn about their experiences and habits around flight booking. <br /> <br /> I collected 15 survey
+            responses, asked mostly
+            closed-ended
+            questions but also wanted to give the option to write a
+            short
+            phrase to find out some emotions.</p>
 
-            <div class="interaction-design1" style="font-weight: 200;">
-                <div class="row">
-                    <div class="col-6">
-                        <img src="images/DD6.png" style="max-width:100%;height:auto;">
-                    </div>
+        <h3>My Findings<br /><a href="pdf/online-survey-results.pdf" target="_blank" style="font-size:1.75vw">🔗
+                Full
+                Survey
+                here</a>
+        </h3>
+        <p> Carrying out the survey helped to
+            gather
+            very valuable data, both quantitative and qualitative. I started to get an understanding of user
+            behaviours, perceptions and
+            frustrations. This exercise also allowed me build on what I found while benchmarking by relating
+            some of
+            information from the survey to my existing findings.</p>
 
-                    <div class="col-6" style="font-size:1.75vw"><span style="font-weight: 300;">Navigation:</span>
-                        Primary navigation on
-                        top
-                        right, visible at all
-                        times for easy access, secondary navigation would disappear as flight search results are
-                        displayed
-                        to keep
-                        them focused on
-                        the task and eliminate distractions <br /><br />
-                        <span style="font-weight: 300;">Linear Flow:</span> Flow here is linear and I wanted the
-                        user
-                        to
-                        have the flexibility
-                        to
-                        change
-                        their flight requirements eg. luggage, number of passengers, flight class, at any time
-                        during
-                        the
-                        journey
-                        provided it's before final flight selection
-                    </div>
+        <div class="survey-img">
+            <div class="row">
+                <div class="col-6">
+                    <img src="images/survey1.png" alt="Survey Diagram" style="max-width:100%;height:auto;" />
+                </div>
+                <div class="col-6">
+                    <img src="images/Survey2.png" alt="Bar Chart" style="max-width:100%;height:auto;" />
                 </div>
             </div>
-            <br />
+        </div>
+        <br /><br /><br />
+
+        <h3>My Conclusions</h3>
 
 
-            <div class="interaction-design2" style="font-weight: 200;">
-                <div class="row">
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Three times a year, desktop preference
+        </button>
+        <div class="content">
+            <p>Most people fly at
+                least
+                3
+                times a year and mostly
+                prefer to book their flights on a
+                desktop.</p>
+        </div>
 
-                    <div class="col-6" style="font-size:1.75vw">
-                        <span style="font-weight: 300;">Progress Bar:</span> Feedback on position along the
-                        process<br /><br />
-                        <span style="font-weight: 300;">Search Forms:</span> Easy to complete by typing or scrolling to
-                        select
-                        departure/destination city,
-                        suggesting airports nearby and last searches<br /><br />
-                        <span style="font-weight: 300;">Date Picker:</span> Constraints > guide user better, eg.
-                        greying out
-                        past dates after selecting departure date<br /><br />
-                        <span style="font-weight: 300;">CTA's and indicators:</span> Attention on key info, easy to
-                        identify CTA's
-                    </div>
-                    <div class="col-6">
-                        <img src="images/DD&.png" style="max-width:100%;height:auto;">
-                    </div>
-                </div>
-            </div>
-            <br /><br /><br /><br /><br />
-            <h1>🛠 Prototype and Wireframe</h1>
-            <p style="padding-bottom: 0;">I used Figma to design this mid fidelity prototype and the
-                Beta version of interactive
-                components to
-                create
-                and reuse
-                some of the more complex interactions. I then used this prototype in the validation stage and it can
-                be
+
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Price - most important
+        </button>
+        <div class="content">
+            <p>Price is the
+                most important factor
+                for most people
+                when finding the right flight.</p>
+        </div>
+
+
+
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Price comparison sites
+        </button>
+        <div class="content">
+            <p>Price comparison sites are
                 used
-                to build upon
-                over time and improved.<br /><br />
-                <a href=pdf/Katya_Sitko_Project15.pdf target="_blank" style="font-size:1.75vw"
-                    style="font-weight: 300;">🔗
-                    Wireframe</a>
+                to
+                check prices and cheapest is booked
+                through an
+                aggregator or directly on the airlines site, users usually coming back to the aggregators several
+                times before purchasing tickets. Most users monitor the flights for about 2 weeks before booking.
             </p>
+        </div>
+
+
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Good user experience
+        </button>
+        <div class="content">
+            <p>More than half of users have reported having a good
+                flight
+                booking experience and a large portion of
+                users have no
+                opinion they do what needs to be done and move on.
+            </p>
+        </div>
+
+
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Lack of clarity of process frustrates
+        </button>
+        <div class="content">
+            <p>The main frustrations are:
+                lack
+                of
+                clarity of process + lack of details about trip
+                along the way eg.
+                total
+                price/add-ons, too much irrelevant information eg.promotions/upselling, need for easier access to
+                alternative
+                routes,
+                more customization per user - who they travel with, where they travel from / to most frequently.
+            </p>
+        </div>
+
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Emotions
+        </button>
+        <div class="content">
+            <p> "Easy, Smooth,
+                Efficient,
+                Convenient, Practical, Stressful, Tedious, Meh".
+            </p>
+        </div>
 
 
 
-            <div style="padding:56.25% 0 0 0;position:relative; margin-left:310px">
-                <iframe
-                    src="https://player.vimeo.com/video/610650869?h=e619dbc941&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
-                    frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
-                    style="position:absolute;top:0;left:0;width:80%;height:80%;"
-                    title="Usability Test, Aer Lingus ✈️"></iframe>
+        </p>
+
+        <p id="Usability Testing" style="font-size:1.75vw">
+        <h2> Usability Testing</h2>
+        <p>
+            Conducting usability testing helped me to get a deep insight into user behaviour while they flow
+            through
+            the
+            process of booking a flight in real time. It was an excellent exercise to observe what actions they
+            took, to
+            understand why they took them
+            and how they felt about their user journey. <br /><br /><span class="sub-heading" style="font-size:2.5vw">My
+                Findings</span><br /><br />
+            I carried out a usability test on the Aer Lingus flight booking site and watched recorded usability
+            tests of
+            two other participants using the same site to gather more information. <br />This exercise
+            was also a chance
+            for me to compare my own experiences and perceptions (so far) of the flight booking process with
+            those
+            of
+            different
+            users. It put into perspective the power of mental mapping as well as the differences in digital
+            literacy.</p>
+        <div class="container">
+            <iframe class="responsive-iframe" width="560" height="415" src="https://www.youtube.com/embed/jUSUvgn5wQs"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+            <br /><br />
+        </div>
+        <h3>My Conclusions </h3>
+
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Bad CTA's and indicators
+        </button>
+        <div class="content">
+            <p>The biggest struggle for users in all
+                usability
+                tests
+                was the lack of clear indicators and subtlety of
+                CTA's.</p>
+        </div>
+
+
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> User must not have to look for info
+        </button>
+        <div class="content">
+            <p>Most important information needs to be made
+                very
+                obvious, the user must not have to look for it..</p>
+        </div>
+
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Reduce amount of clicking
+        </button>
+        <div class="content">
+            <p>Users did not like extra clicking eg. to view
+                what
+                was
+                included in their fare.</p>
+        </div>
+
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Habits, mind maps
+        </button>
+        <div class="content">
+            <p>One user pointed out hat they were used to
+                adding
+                items to their shopping cart on Amazon and would like
+                to see the same function on flight booking sites.</p>
+        </div>
+
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Fare information
+        </button>
+        <div class="content">
+            <p>Fare information should be transparent and
+                clear.</p>
+        </div>
+
+
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Too much information frustrated users
+        </button>
+        <div class="content">
+            <p>Too much information at any one stage
+                confused
+                users. Information should be displayed in smaller blocks, so the user can digest it better.</p>
+        </div>
+
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Offer alternatives
+        </button>
+        <div class="content">
+            <p>Displaying alternative options was positively
+                met
+                by
+                users eg. alternative dates and prices.</p>
+        </div>
+
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Mistrust
+        </button>
+        <div class="content">
+            <p>There is definitely a feeling of mistrust
+                towards
+                airlines. Most users were looking out for hidden charges throughout the process.</p>
+        </div>
+
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Banner ads, pop-ups
+        </button>
+        <div class="content">
+            <p>Banner ads, pop-ups distract from the process, cause frustration and make the site feel cheaper.</p>
+        </div>
+
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <h1>📊 Analysis</h1>
+        <p class="analysis-intro" style="font-size:1.75vw">After collecting the data it was time to review and
+            make
+            sense of it, to
+            categorize the
+            findings and to make a more structured overview of the user problem. This was done by creating an <a
+                href="#affinity-diagram">
+                Affinity
+                Diagram
+            </a> and <a href="#customer-journey-map">Customer Journey Map</a>.
+        </p>
+        <br />
+        <h2>
+            Affinity
+            Diagram</h2>
+        <p>
+            For this part, I worked together with another designer who was working on the same project.
+            Together, we
+            created a
+            very detailed affinity map by sharing research data
+            with
+            each other and noting our observations on post-its. After combining all of them together, we grouped
+            them
+            according to different patterns that we began to see emerging. Each sub group received a name.
+            </br /></br />We
+            came up with 25 groups in total, some of the main groups were - mental models that hinder good user
+            experience (friction), mental
+            models that aid good user experience, pre-booking behaviours, error recovery, communication between
+            passengers.</br /></br /> You can see more of the affinity map groups <a href="pdf/affinity-map.pdf"
+                target=blank>here</a>
+            .
+        </p>
+        <div class="affinity-map-ex">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/20210218_160542.jpg" style="max-width:100%;height:auto;">
+                </div>
+                <div class="col-3">
+                    <img src="images/20210218_200221.jpg" style="max-width:100%;height:auto;">
+                </div>
+                <div class="col-3">
+                    <img src="images/20210219_150723.jpg" style="max-width:100%;height:auto;">
+                </div>
+
+                <div class="col-3">
+                    <img src="images/20210219_161327.jpg" style="max-width:100%;height:auto;">
+                </div>
+
             </div>
-            <script src="https://player.vimeo.com/api/player.js"></script>
+        </div><br /><br /><br /><br />
+        <h2>
+            Customer Journey Map
+            (CJM)</h2>
+        <p>
+            I took the grouped information from the affinity map and arranged it in line with each step of the
+            user
+            journey. At each
+            step I noted the goals, behaviours, pain points and positive reactions/feedback. <br />
+            The map allowed me to get a more cohesive view of where friction occurred along the process, what
+            had
+            caused
+            it and gave good insight into what users enjoyed about their experience.<br /> The top part of the
+            CJM
+            includes a
+            mood map to visualize user's feelings towards the process at each step.
+        <div class="cjm-pic"> <img src="images/CJM-pic.png" style="width:85%;"></div>
+        </p>
+        <br /><br /><br />
+        <h3>My Conclusions</h3>
+
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Poor CTA's
+        </button>
+        <div class="content">
+            <p>Users often found themselves unsure of how to proceed to the next step, which indicates a lack
+                of
+                feedback and indicators poorly designed CTA's.</p>
+        </div>
+
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Overwhelming
+        </button>
+        <div class="content">
+            <p>Although users like to be given alternative options/actions, too many options and too much/unclear
+                information is overwhelming and takes away
+                from
+                the
+                user experience.</p>
+        </div>
 
 
 
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Mental Mapping
+        </button>
+        <div class="content">
+            <p>Everyone was used to different ways (mental models at work) of inputting
+                information -
+                typing/selecting and when their preferred
+                method
+                was unavailable, they were upset. It is important to incorporate that into designing the
+                interactions.</p>
+        </div>
+
+        <button type="button" class="collapsible">
+            <span class=" iconify" data-inline="false" data-icon="bx:bx-right-arrow-circle"
+                style="color: darkblue; font-size:1.75vw"></span> Chatbot/Help availability
+        </button>
+        <div class="content">
+            <p>Users found the presence of a Chatbot for quick customer support reassuring.</p>
+        </div>
+
+        <br /><br /><br /><br />
 
 
-            <h1>🧪 Validation</h1>
 
-            <p>
+        <h1>👩🏻‍🎨 Design</h1>
+        <p>
+            Once I analysed my research and made some conclusions, it was time to begin designing my own
+            solution.
+            <br />I
+            wanted
+            to
+            create a communicative product with a focus on feedback from the system to the user in the form of
+            useful
+            error messages and actionable recovery tasks,
+            clear CTA's and indicators. I wanted the software to be friendly and polite, easy to navigate and
+            feel
+            smooth. <br /><br />
+            The steps involved in the design stage were creating a clear <a href=" #user-flow">
+                User Flow</a> and some <a href="#interaction-design">Low Fidelity Sketching</a>.
+        </p>
+        <br />
 
-                I was able to gather evidence and feedback about the user journey that I created by testing my
-                prototype. This feedback can be
-                used to improve/re-design different features of the site. <br /> It was important to let the user
-                know
-                that this is a simulated site and that it has limited functionality. As well as asking them
-                to complete the booking, I also asked some questions regarding the visuals and the emotions
-                associated
-                with it.
-                <br />
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/GEWxu96LHKA"
-                    title="YouTube video player" frameborder="0"
+        <h2>User
+            Flow
+            Diagram</h2>
+        <p>🔗
+            <a href=pdf/UserFlow.pdf target="_blank">
+
+                More detailed version here</a>
+        </p>
+
+        <p>
+            Keeping in mind the pain-points and mental models that I took notes on, I put together a high level
+            user flow diagram which represents how the user would interact with the system.<br />
+        </p>
+
+        <div class="user-flow"><img src="images/UserFlow.png" style="max-width:100%;height:auto;"></div>
+        <br /><br /><br />
+        <h2>
+            Low Fidelity Sketching</h2>
+
+
+
+        <button type="button" class="collapsible ">
+            👉🏻 Sketches
+        </button>
+        <div class="content">
+            <p><iframe src="pdf/Interaction-design-sketches.pdf" width="700" height="515" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>
-
-
-
-                <br />
-                <br />
-                I was pretty happy with how this exercise went. The user went through the process with ease and they
-                felt that they received good feedback/confirmation from the system. Their feedback about navigation
-                and
-                progress bar was positive and CTA's appeared to be clear. The user did not question where they
-                needed to
-                go next and did not express a need for more detailed info, which was one of the things I was very
-                curious to test.
-                <br />
-                <br />
-                This exercise proves very useful and from the very first step I could already see a small
-                area for improvement, I also managed to take some notes throughout the process and take the user's
-                ideas
-                on board.
-                If I were to add some re-designs, I would add prices to the date picker to make cost fluctuations
-                more evident. I would also add a "Sign-In" option at the "Payment" step.
-
             </p>
-            <h1>🧠 Conclusions</h1>
-            <p>
-                <span style="font-weight: 300;">What I learned</span> - I learned a number of things throughout this
-                project, the main
-                ones
-                being how to conduct a usability test and the types of different research methods used in UX. I
-                found
-                the usability test particularly valuable to the project, it gave me a lot of information to work
-                with
-                and
-                a confidence that I was solving a
-                real problem.<br />The other very important thing I learned is that the user's mental maps will
-                dictate
-                their behaviour and that we need to try and understand those mental maps as best as possible.
-                <br /><br />
-                <span style="font-weight: 300;">What I would do differently</span> - I would change up my research
-                strategy. I would try
-                to
-                collect a larger sample size for my surveys. I would also perhaps try to facilitate a focus group
-                with
-                some better-qualified interviewees. I would like to have asked more specific questions regarding
-                some of
-                the features currently used on flight booking sites/apps as well as user habits.<br />
-                <br /> Thank you for reading! 😊
-
-            </p>
-
-            <br />
-            <br />
-
         </div>
+
+
+
+
+
+        <p>
+
+
+            The next step was to start combining the user interactions with some visuals. At this stage a lot of
+            ideas
+            were formed and using pen
+            and paper was a great way to experiment
+            and make quick
+            changes.<br />
+
+            <br />
+        </p>
+
+
+        <div class="interaction-design1" style="font-weight: 200;">
+            <div class="row">
+                <div class="col-6">
+                    <img src="images/DD6.png" style="max-width:100%;height:auto;">
+                </div>
+
+                <div class="col-6" style="font-size:1.75vw"><span style="font-weight: 300;">Navigation:</span>
+                    Primary navigation on
+                    top
+                    right, visible at all
+                    times for easy access, secondary navigation would disappear as flight search results are
+                    displayed
+                    to keep
+                    them focused on
+                    the task and eliminate distractions <br /><br />
+                    <span style="font-weight: 300;">Linear Flow:</span> Flow here is linear and I wanted the
+                    user
+                    to
+                    have the flexibility
+                    to
+                    change
+                    their flight requirements eg. luggage, number of passengers, flight class, at any time
+                    during
+                    the
+                    journey
+                    provided it's before final flight selection
+                </div>
+            </div>
+        </div>
+        <br />
+
+
+        <div class="interaction-design2" style="font-weight: 200;">
+            <div class="row">
+
+                <div class="col-6" style="font-size:1.75vw">
+                    <span style="font-weight: 300;">Progress Bar:</span> Feedback on position along the
+                    process<br /><br />
+                    <span style="font-weight: 300;">Search Forms:</span> Easy to complete by typing or scrolling to
+                    select
+                    departure/destination city,
+                    suggesting airports nearby and last searches<br /><br />
+                    <span style="font-weight: 300;">Date Picker:</span> Constraints > guide user better, eg.
+                    greying out
+                    past dates after selecting departure date<br /><br />
+                    <span style="font-weight: 300;">CTA's and indicators:</span> Attention on key info, easy to
+                    identify CTA's
+                </div>
+                <div class="col-6">
+                    <img src="images/DD&.png" style="max-width:100%;height:auto;">
+                </div>
+            </div>
+        </div>
+        <br /><br /><br /><br /><br />
+        <h1>🛠 Prototype and Wireframe</h1>
+        <p style="padding-bottom: 0;">I used Figma to design this mid fidelity prototype and the
+            Beta version of interactive
+            components to
+            create
+            and reuse
+            some of the more complex interactions. I then used this prototype in the validation stage and it can
+            be
+            used
+            to build upon
+            over time and improved.<br /><br />
+            <a href=pdf/Katya_Sitko_Project15.pdf target="_blank" style="font-size:1.75vw" style="font-weight: 300;">🔗
+                Wireframe</a>
+        </p>
+
+
+
+        <div style="padding:56.25% 0 0 0;position:relative; margin-left:310px">
+            <iframe
+                src="https://player.vimeo.com/video/610650869?h=e619dbc941&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen
+                style="position:absolute;top:0;left:0;width:80%;height:80%;"
+                title="Usability Test, Aer Lingus ✈️"></iframe>
+        </div>
+        <script src="https://player.vimeo.com/api/player.js"></script>
+
+
+
+
+
+        <h1>🧪 Validation</h1>
+
+        <p>
+
+            I was able to gather evidence and feedback about the user journey that I created by testing my
+            prototype. This feedback can be
+            used to improve/re-design different features of the site. <br /> It was important to let the user
+            know
+            that this is a simulated site and that it has limited functionality. As well as asking them
+            to complete the booking, I also asked some questions regarding the visuals and the emotions
+            associated
+            with it.
+            <br />
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/GEWxu96LHKA"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+
+
+            <br />
+            <br />
+            I was pretty happy with how this exercise went. The user went through the process with ease and they
+            felt that they received good feedback/confirmation from the system. Their feedback about navigation
+            and
+            progress bar was positive and CTA's appeared to be clear. The user did not question where they
+            needed to
+            go next and did not express a need for more detailed info, which was one of the things I was very
+            curious to test.
+            <br />
+            <br />
+            This exercise proves very useful and from the very first step I could already see a small
+            area for improvement, I also managed to take some notes throughout the process and take the user's
+            ideas
+            on board.
+            If I were to add some re-designs, I would add prices to the date picker to make cost fluctuations
+            more evident. I would also add a "Sign-In" option at the "Payment" step.
+
+        </p>
+        <h1>🧠 Conclusions</h1>
+        <p>
+            <span style="font-weight: 300;">What I learned</span> - I learned a number of things throughout this
+            project, the main
+            ones
+            being how to conduct a usability test and the types of different research methods used in UX. I
+            found
+            the usability test particularly valuable to the project, it gave me a lot of information to work
+            with
+            and
+            a confidence that I was solving a
+            real problem.<br />The other very important thing I learned is that the user's mental maps will
+            dictate
+            their behaviour and that we need to try and understand those mental maps as best as possible.
+            <br /><br />
+            <span style="font-weight: 300;">What I would do differently</span> - I would change up my research
+            strategy. I would try
+            to
+            collect a larger sample size for my surveys. I would also perhaps try to facilitate a focus group
+            with
+            some better-qualified interviewees. I would like to have asked more specific questions regarding
+            some of
+            the features currently used on flight booking sites/apps as well as user habits.<br />
+            <br /> Thank you for reading! 😊
+
+        </p>
+
+        <br />
+        <br />
+
+    </div>
     </div>
 
     <p class="footer">
@@ -897,7 +878,7 @@
             data-height="20"></span>
 
     </p>
-    </div>
+
     <script src="FlyUX.js"></script>
 </body>
 
