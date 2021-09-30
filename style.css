@@ -18,7 +18,8 @@ text-decoration: none;}
 
 .header button:hover{
   background-color:rgba(166, 166, 253, 0.74);
-  text-decoration: none;
+  border-style:none;
+
 }
 
 .header a {
