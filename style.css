@@ -125,7 +125,7 @@ img#logo {
 
 
 
-.project1header h1  {padding: 120px 20px 20px 100px;
+.project1header h1  {padding: 80px 20px 20px 100px;
   font-family: Inter;
   font-size: 61px;
  
@@ -391,16 +391,16 @@ padding-top: 5px;}
 
 #myBtn {
   display: none; 
+  font-family: 'Montserrat', sans-serif;
   position: fixed; 
   bottom: 100px;
   right: 60px; 
   z-index: 99; 
-  border:#59b49a;
-  border-style: solid;
-  border-width: 1px;
+  border:rgb(255, 218, 115);
+  border-style: none;
   outline: none; 
-  background-color: white;
-  color: #59b49a; 
+  background-color: rgb(255, 218, 115);
+  color: black; 
   cursor: pointer; 
   padding: 15px; 
   border-radius: 100px;
@@ -410,8 +410,8 @@ padding-top: 5px;}
 
 
 #myBtn:hover {
-  background-color:#59b49a; 
-  color:white;}
+  background-color:rgba(166, 166, 253, 0.74); 
+  color:black;}
 
 
 
