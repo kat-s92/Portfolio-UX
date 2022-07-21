@@ -1,100 +1,93 @@
-
-
 .header {
-  float: right; 
+  float: right;
   padding: 30px 85px 5px 5px;
-
 }
 
-
-.header button{background-color: rgb(255, 218, 115);
-border-style:none;
-border-radius: 65px;
-padding: 15px;
-font-size: 22px;
-font-weight: 300;
-text-decoration: none;
-outline: none ;}
-
-
-.header button:hover{
-  background-color:rgba(166, 166, 253, 0.74);
-  border-style:none;
+.header button {
+  background-color: rgb(255, 218, 115);
+  border-style: none;
+  border-radius: 65px;
+  padding: 15px;
+  font-size: 22px;
+  font-weight: 300;
+  text-decoration: none;
   outline: none;
+}
 
+.header button:hover {
+  background-color: rgba(166, 166, 253, 0.74);
+  border-style: none;
+  outline: none;
 }
 
 .header a {
   color: black;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .header a:hover {
   color: white;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .header ul {
   list-style-type: none;
-font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-decoration: none;
 }
 
 .header li {
   display: inline;
-  padding:20px;
+  padding: 20px;
   text-decoration: none;
   font-weight: lighter;
 }
-
 
 .welcome {
   margin: 20px 0px 20px 0px;
   font-weight: 100;
 }
 
-.welcome small{  font-weight:lighter;
-font-size:16px;}
+.welcome small {
+  font-weight: lighter;
+  font-size: 16px;
+}
 
 .welcome p {
-  
   text-align: left;
   font-size: 32px;
   line-height: 40px;
   padding: 60px 0px 0px 250px;
   color: rgba(0, 0, 0, 0.822);
-  font-family: 'Prompt', sans-serif;
-    
-    
+  font-family: "Prompt", sans-serif;
 }
 
 .welcome a {
-  color:black;
+  color: black;
   text-decoration: none;
 }
 
-.welcome img {padding-top: 65px;
-  padding-left:0px;
+.welcome img {
+  padding-top: 65px;
+  padding-left: 0px;
 }
 
-.connect-linkedin 
- {
-  background-color:
-  rgba(209, 209, 253, 0.74);
+.connect-linkedin {
+  background-color: rgba(209, 209, 253, 0.74);
   border: none;
   font-size: 22px;
   border-radius: 50px;
   margin: 30px 10px 30px 240px;
   padding: 25px;
   text-decoration: none;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .connect-linkedin:hover {
   cursor: pointer;
-background-color:rgb(255, 218, 115);
+  background-color: rgb(255, 218, 115);
 }
 
 .connect-linkedin:hover a {
@@ -108,12 +101,12 @@ p#About-Me {
   color: rgba(0, 0, 0, 0.822);
   font-family: "Roboto", sans-serif;
   line-height: 140%;
-    font-weight: 200;
+  font-weight: 200;
 }
 
 .heading-aboutme {
-    font-weight: 300;
- 
+  font-weight: 300;
+
   padding: 40px 140px 80px 0px;
 }
 
@@ -122,14 +115,12 @@ img#logo {
   margin: 0 auto;
 }
 
-
-
-
-.project1header h1  {padding: 80px 20px 20px 100px;
+.project1header h1 {
+  padding: 80px 20px 20px 100px;
   font-family: Inter;
   font-size: 61px;
- 
-letter-spacing: normal;
+
+  letter-spacing: normal;
 
   text-align: left;
 }
@@ -138,39 +129,34 @@ letter-spacing: normal;
   padding: 180px 80px 20px 80px;
   font-family: "Roboto", sans-serif;
   font-size: 26px;
-  ;
 }
 
-.project1header a{
-
- color: black;
- text-decoration: none;
-   font-family: 'Prompt', sans-serif;
+.project1header a {
+  color: black;
+  text-decoration: none;
+  font-family: "Prompt", sans-serif;
   font-size: 46px;
-  
 }
-.project1header p{
+.project1header p {
   padding: 20px 20px 20px 140px;
   font-family: "Roboto", sans-serif;
   font-size: 26px;
-    font-weight: 200;
-  
+  font-weight: 200;
 }
 
 .project1body h1 {
-
   padding: 20px 20px 20px 300px;
   font-family: Inter;
   font-size: 61px;
   font-weight: 300;
 
-letter-spacing: normal;
+  letter-spacing: normal;
 
   text-align: left;
 }
 
 .project1body h2 {
-font-size: 42px;
+  font-size: 42px;
   padding: 20px 20px 20px 300px;
   font-family: "Roboto", sans-serif;
   text-align: left;
@@ -178,13 +164,12 @@ font-size: 42px;
 }
 
 .project1body h3 {
-font-size: 32px;
+  font-size: 32px;
   padding: 5px 5px 20px 300px;
   font-family: "Roboto", sans-serif;
   text-align: left;
   font-weight: 300;
 }
-
 
 .project1body img {
   display: block;
@@ -193,23 +178,248 @@ font-size: 32px;
   width: 75%;
 }
 
-.error-msg{   display: block;
+.error-msg {
+  display: block;
   margin-left: 200px;
-  margin-right: auto;width: 80%;
+  margin-right: auto;
+  width: 80%;
 }
 
 .project1body p {
   padding: 5px 300px 20px 300px;
   font-family: "Roboto", sans-serif;
   font-size: 24px;
-  font-weight:200;
+  font-weight: 200;
 }
 .project1body a {
   text-decoration: none;
 }
 
+.SS-page-img {
+  margin: 10px 50px 0px 50px;
+}
 
+.sub-heading a {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  padding: 40px 0px 40px 0px;
+  text-decoration: none;
+  color: darkblue;
+}
 
+.survey-img {
+  margin: 10px 50px 0px 50px;
+}
+
+.survey-summary {
+  padding: 40px 300px 0px 300px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
+
+iframe {
+  padding-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  float: right;
+  padding: 30px 85px 5px 5px;
+}
+
+.header button {
+  background-color: rgb(255, 218, 115);
+  border-style: none;
+  border-radius: 65px;
+  padding: 15px;
+  font-size: 22px;
+  font-weight: 300;
+  text-decoration: none;
+  outline: none;
+}
+
+.header button:hover {
+  background-color: rgba(166, 166, 253, 0.74);
+  border-style: none;
+  outline: none;
+}
+
+.header a {
+  color: black;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header a:hover {
+  color: white;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.header ul {
+  list-style-type: none;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+}
+
+.header li {
+  display: inline;
+  padding: 20px;
+  text-decoration: none;
+  font-weight: lighter;
+}
+
+.welcome {
+  margin: 20px 0px 20px 0px;
+  font-weight: 100;
+}
+
+.welcome small {
+  font-weight: lighter;
+  font-size: 16px;
+}
+
+.welcome p {
+  text-align: left;
+  font-size: 32px;
+  line-height: 40px;
+  padding: 60px 0px 0px 250px;
+  color: rgba(0, 0, 0, 0.822);
+  font-family: "Prompt", sans-serif;
+}
+
+.welcome a {
+  color: black;
+  text-decoration: none;
+}
+
+.welcome img {
+  padding-top: 65px;
+  padding-left: 0px;
+}
+
+.connect-linkedin {
+  background-color: rgba(209, 209, 253, 0.74);
+  border: none;
+  font-size: 22px;
+  border-radius: 50px;
+  margin: 30px 10px 30px 240px;
+  padding: 25px;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+.connect-linkedin:hover {
+  cursor: pointer;
+  background-color: rgb(255, 218, 115);
+}
+
+.connect-linkedin:hover a {
+  color: black;
+}
+
+p#About-Me {
+  text-align: left;
+  font-size: 32px;
+  padding: 40px 140px 80px 140px;
+  color: rgba(0, 0, 0, 0.822);
+  font-family: "Roboto", sans-serif;
+  line-height: 140%;
+  font-weight: 200;
+}
+
+.heading-aboutme {
+  font-weight: 300;
+
+  padding: 40px 140px 80px 0px;
+}
+
+img#logo {
+  padding: 20px 0px 0px 120px;
+  margin: 0 auto;
+}
+
+.project1header h1 {
+  padding: 80px 20px 20px 100px;
+  font-family: Inter;
+  font-size: 61px;
+
+  letter-spacing: normal;
+
+  text-align: left;
+}
+
+.project1header {
+  padding: 180px 80px 20px 80px;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+}
+
+.project1header a {
+  color: black;
+  text-decoration: none;
+  font-family: "Prompt", sans-serif;
+  font-size: 46px;
+}
+.project1header p {
+  padding: 20px 20px 20px 140px;
+  font-family: "Roboto", sans-serif;
+  font-size: 26px;
+  font-weight: 200;
+}
+
+.project1body h1 {
+  padding: 20px 20px 20px 300px;
+  font-family: Inter;
+  font-size: 61px;
+  font-weight: 300;
+
+  letter-spacing: normal;
+
+  text-align: left;
+}
+
+.project1body h2 {
+  font-size: 42px;
+  padding: 20px 20px 20px 300px;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  font-weight: 300;
+}
+
+.project1body h3 {
+  font-size: 32px;
+  padding: 5px 5px 20px 300px;
+  font-family: "Roboto", sans-serif;
+  text-align: left;
+  font-weight: 300;
+}
+
+.project1body img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+.error-msg {
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+  width: 80%;
+}
+
+.project1body p {
+  padding: 5px 300px 20px 300px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 200;
+}
+.project1body a {
+  text-decoration: none;
+}
 
 .SS-page-img {
   margin: 10px 50px 0px 50px;
@@ -245,56 +455,45 @@ iframe {
   padding: 25px;
 }
 
-
-.interaction-design1
-{ font-family: "Roboto", sans-serif;
+.interaction-design1 {
+  font-family: "Roboto", sans-serif;
   font-size: 24px;
- margin:10px 30px 10px 10px;
+  margin: 10px 30px 10px 10px;
   padding: 10px 60px 10px 80px;
 }
-.interaction-design2
-{margin:10px 10px 10px 50px; 
-  padding:30px 50px 10px 120px; font-family: "Roboto", sans-serif;
-  font-size: 24px}
+.interaction-design2 {
+  margin: 10px 10px 10px 50px;
+  padding: 30px 50px 10px 120px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
 
-
-
-
-
-
-
-.project2header h1{text-align: left; 
-padding-left: 0;
-padding-top: 20px;}
+.project2header h1 {
+  text-align: left;
+  padding-left: 0;
+  padding-top: 20px;
+}
 
 .project2header h3 {
-
   padding-bottom: 40px;
 }
 .project2header {
   padding: 80px 180px 20px 140px;
   font-family: "Roboto", sans-serif;
   font-size: 26px;
-  ;
 }
 
-
 .project2header p {
-
   font-family: "Roboto", sans-serif;
   font-size: 24px;
   font-weight: 100;
 }
 
-
-
-
-
 .weather-app {
   background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
   height: 500px;
   border-radius: 10px;
-  margin-left:auto;
+  margin-left: auto;
   margin-right: auto;
   max-width: 800px;
 }
@@ -314,7 +513,7 @@ padding-top: 20px;}
   font-size: 20px;
   padding: 12px 20px 12px 20px;
   border: none;
-border-radius: 30px;
+  border-radius: 30px;
   transition: all 200ms ease-in-out;
 }
 
@@ -377,7 +576,7 @@ ul {
   font-family: "Montserrat", sans-serif;
   font-weight: lighter;
   border-radius: 30px;
-  padding-top:10px;
+  padding-top: 10px;
 }
 .time-slot:hover {
   cursor: pointer;
@@ -386,90 +585,83 @@ ul {
   background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%);
 }
 
-.footer {text-align:center;
-padding-top: 5px;}
+.footer {
+  text-align: center;
+  padding-top: 5px;
+}
 
 #myBtn {
-  display: none; 
-  font-family: 'Montserrat', sans-serif;
-  position: fixed; 
+  display: none;
+  font-family: "Montserrat", sans-serif;
+  position: fixed;
   bottom: 100px;
-  right: 60px; 
-  z-index: 99; 
-  border:rgb(255, 218, 115);
+  right: 60px;
+  z-index: 99;
+  border: rgb(255, 218, 115);
   border-style: none;
-  outline: none; 
+  outline: none;
   background-color: rgb(255, 218, 115);
-  color: black; 
-  cursor: pointer; 
-  padding: 15px; 
+  color: black;
+  cursor: pointer;
+  padding: 15px;
   border-radius: 100px;
   font-size: 20px;
 }
 
-
-
 #myBtn:hover {
-  background-color:rgba(166, 166, 253, 0.74); 
-  color:black;}
+  background-color: rgba(166, 166, 253, 0.74);
+  color: black;
+}
 
-
-
-
-  .contact{  
-    margin-top:120px;
-    padding: 20px 40px 40px 140px;
+.contact {
+  margin-top: 120px;
+  padding: 20px 40px 40px 140px;
   font-family: "Roboto", sans-serif;
   background-color: rgb(255, 218, 115);
 }
-  
 
-
-.contact a, .email {font-size: 24px;
+.contact a,
+.email {
+  font-size: 24px;
   margin-left: 25px;
-position: absolute;
-color: blue;}
+  position: absolute;
+  color: blue;
+}
 
 .collapsible {
   text-decoration: none;
-  background-color:white;
+  background-color: white;
   color: #444;
-   font-family: "Roboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   cursor: pointer;
   padding: 10px;
-  width:60%;
+  width: 60%;
   border: none;
   text-align: left;
   outline: none;
   font-size: 24px;
- margin-left: 290px;
-    font-weight:100;
-
-  
+  margin-left: 290px;
+  font-weight: 100;
 }
 
-
-.collapsible:focus{
-   outline: none;
+.collapsible:focus {
+  outline: none;
 }
-
 
 /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
-.active, .collapsible:hover {
+.active,
+.collapsible:hover {
   background-color: white;
-   color: black;
-   font-weight:100;
-     text-decoration: none;
+  color: black;
+  font-weight: 100;
+  text-decoration: none;
 }
 
 /* Style the collapsible content. Note: hidden by default */
 .content {
-
   display: none;
   overflow: hidden;
   background-color: white;
-   
-    
 }
 
 .collapsible:after {
@@ -484,8 +676,6 @@ color: blue;}
   content: "\2796"; /* Unicode character for "minus" sign (-) */
 }
 
-
-
 /* Slideshow  */
 .slideshow-container {
   max-width: 800px;
@@ -493,7 +683,8 @@ color: blue;}
   margin: auto;
 }
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -503,7 +694,7 @@ color: blue;}
   color: white;
   font-weight: bold;
   font-size: 18px;
-  transition: 0.10s ease;
+  transition: 0.1s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
@@ -514,3 +705,20 @@ color: blue;}
   border-radius: 3px 0 0 3px;
 }
 
+.affinity-map-ex {
+  margin: 0px 40px 10px 40px;
+  padding: 25px;
+}
+
+.interaction-design1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  margin: 10px 30px 10px 10px;
+  padding: 10px 60px 10px 80px;
+}
+.interaction-design2 {
+  margin: 10px 10px 10px 50px;
+  padding: 30px 50px 10px 120px;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+}
